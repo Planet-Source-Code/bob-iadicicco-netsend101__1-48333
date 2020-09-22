@@ -1,0 +1,98 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Projects\VB 6.0\Personal\NetSend\Setup
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+C:\Program Files\AutoRun\RICHTX32.OCX=
+C:\Program Files\AutoRun\mscomctl.ocx=
+
+[Package|Setup|Out-of-Date Dependency Information]
+
+[Package|Setup|Files Added]
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.rtf=
+
+[Package|Setup|Files Removed]
+
+[Package|Setup|Files In Project]
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\AutoRun\mscomctl.ocx=Yes
+C:\Program Files\AutoRun\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.rtf=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\AutoRun\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\AutoRun\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.rtf=$(AppPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.exe=No
+E:\Projects\VB 6.0\Personal\NetSend\NetSend.rtf=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=NetSend
+
+[Package|Setup|IconGroups]
+Group0=Lost Kender's Utilities
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup|Lost Kender's Utilities]
+Icon1=NetSend.exe
+Title1=NetSend
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup|Package]
+PackageFolder=E:\Projects\VB 6.0\Personal\NetSend\Setup
+ProjectFolder=E:\Projects\VB 6.0\Personal\NetSend
+ServerSideCab=
+File1=E:\Projects\VB 6.0\Personal\NetSend\Setup\setup.exe
+File2=E:\Projects\VB 6.0\Personal\NetSend\Setup\Setup.Lst
+File3=E:\Projects\VB 6.0\Personal\NetSend\Setup\NetSend.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
